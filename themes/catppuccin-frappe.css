@@ -1,3 +1,11 @@
+
+:root {
+  --color-legacy-conversation-header-bg: #292c3c !important;
+  --color-elevated-background-primary: #292c3c !important;
+  --color-elevated-background-secondary: #303446 !important;
+  --color-elevated-background-tertiary: #414559 !important;
+}
+
 /*
  _   _               ____
 | \ | | __ ___   __ | __ )  __ _ _ __ ___
@@ -12,11 +20,11 @@
 }
 
 .NavTabs__ItemButton:hover {
-  background-color: #414559 !important;
+  background-color: rgba(65, 69, 89, 0.7) !important;
 }
 
 .NavTabs__Item[aria-selected="true"] > span > .NavTabs__ItemButton {
-  background-color: #51576d !important;
+  background-color: #414559 !important;
 }
 
 /* buttons in qr and link section of personal user profile */
@@ -36,7 +44,7 @@
 }
 
 .module-conversation-list__item--contact-or-conversation--is-selected {
-  background-color: #51576d !important;
+  background-color: #414559 !important;
 }
 
 /* no archived chat text */
@@ -48,7 +56,7 @@
 .module-conversation-list__item--contact-or-conversation:focus,
 .module-conversation-list__item--archive-button:hover,
 .module-conversation-list__item--archive-button:focus {
-  background-color: #414559 !important;
+  background-color: rgba(65, 69, 89, 0.7) !important;
 }
 
 /*
@@ -75,7 +83,7 @@
 
 /* the bar at the top containing your contact name */
 .module-ConversationHeader {
-  background-color: #232634 !important;
+  background-color: #292c3c !important;
 }
 
 /* call, search, etc button present at conversation header */
@@ -123,7 +131,7 @@
 
 /* the area where you write message, attach file, send vm, etc. */
 .CompositionArea {
-  background-color: #232634 !important;
+  background-color: #303446 !important;
 }
 
 /* the actual typing box */
@@ -141,6 +149,11 @@
 }
 
 .ScrollDownButton {
+  background-color: #414559 !important;
+}
+
+/* date indicator */
+.bg-fill-floating {
   background-color: #414559 !important;
 }
 

@@ -5,6 +5,14 @@ whiskers:
     - flavor
   filename: "themes/catppuccin-{{ flavor.identifier }}.css"
 ---
+
+:root {
+  --color-legacy-conversation-header-bg: #{{mantle.hex}} !important;
+  --color-elevated-background-primary: #{{mantle.hex}} !important;
+  --color-elevated-background-secondary: #{{base.hex}} !important;
+  --color-elevated-background-tertiary: #{{surface0.hex}} !important;
+}
+
 /*
  _   _               ____
 | \ | | __ ___   __ | __ )  __ _ _ __ ___
@@ -19,11 +27,11 @@ whiskers:
 }
 
 .NavTabs__ItemButton:hover {
-  background-color: #{{surface0.hex}} !important;
+  background-color: rgba({{ surface0.rgb.r }}, {{ surface0.rgb.g }}, {{ surface0.rgb.b }}, 0.7) !important;
 }
 
 .NavTabs__Item[aria-selected="true"] > span > .NavTabs__ItemButton {
-  background-color: #{{surface1.hex}} !important;
+  background-color: #{{surface0.hex}} !important;
 }
 
 /* buttons in qr and link section of personal user profile */
@@ -43,7 +51,7 @@ whiskers:
 }
 
 .module-conversation-list__item--contact-or-conversation--is-selected {
-  background-color: #{{surface1.hex}} !important;
+  background-color: #{{surface0.hex}} !important;
 }
 
 /* no archived chat text */
@@ -55,7 +63,7 @@ whiskers:
 .module-conversation-list__item--contact-or-conversation:focus,
 .module-conversation-list__item--archive-button:hover,
 .module-conversation-list__item--archive-button:focus {
-  background-color: #{{surface0.hex}} !important;
+  background-color: rgba({{ surface0.rgb.r }}, {{ surface0.rgb.g }}, {{ surface0.rgb.b }}, 0.7) !important;
 }
 
 /*
@@ -82,7 +90,7 @@ whiskers:
 
 /* the bar at the top containing your contact name */
 .module-ConversationHeader {
-  background-color: #{{crust.hex}} !important;
+  background-color: #{{mantle.hex}} !important;
 }
 
 /* call, search, etc button present at conversation header */
@@ -130,7 +138,7 @@ whiskers:
 
 /* the area where you write message, attach file, send vm, etc. */
 .CompositionArea {
-  background-color: #{{crust.hex}} !important;
+  background-color: #{{base.hex}} !important;
 }
 
 /* the actual typing box */
@@ -148,6 +156,11 @@ whiskers:
 }
 
 .ScrollDownButton {
+  background-color: #{{surface0.hex}} !important;
+}
+
+/* date indicator */
+.bg-fill-floating {
   background-color: #{{surface0.hex}} !important;
 }
 
