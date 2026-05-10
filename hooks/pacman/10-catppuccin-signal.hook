@@ -1,0 +1,11 @@
+[Trigger]
+Operation = Install
+Operation = Upgrade
+Type = Package
+Target = signal-desktop
+
+[Action]
+Description = Patching Signal Desktop
+Depends = vencord-installer
+When = PostTransaction
+Exec = /usr/local/lib/pacman/patch-signal-desktop.sh
