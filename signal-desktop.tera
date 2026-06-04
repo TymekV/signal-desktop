@@ -172,6 +172,10 @@ whiskers:
   background-color: #{{surface0.hex}} !important;
 }
 
+.module-ReactionPickerPicker {
+  background-color: #{{surface0.hex}} !important;
+}
+
 /*
   ____      _ _ _                  _
  / ___|__ _| | (_)_ __   __ _     / \   _ __ ___  __ _
