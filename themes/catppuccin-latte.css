@@ -4,6 +4,8 @@
   --color-elevated-background-primary: #e6e9ef !important;
   --color-elevated-background-secondary: #eff1f5 !important;
   --color-elevated-background-tertiary: #ccd0da !important;
+  --color-fill-selected: #ccd0da !important;
+  --color-label-secondary: #bcc0cc !important;
 }
 
 /*
@@ -53,10 +55,13 @@
 }
 
 .module-conversation-list__item--contact-or-conversation:hover,
-.module-conversation-list__item--contact-or-conversation:focus,
-.module-conversation-list__item--archive-button:hover,
-.module-conversation-list__item--archive-button:focus {
+.module-conversation-list__item--archive-button:hover {
   background-color: rgba(204, 208, 218, 0.7) !important;
+}
+
+.module-conversation-list__item--contact-or-conversation:focus,
+.module-conversation-list__item--archive-button:focus {
+  background-color: #ccd0da !important;
 }
 
 /*
@@ -70,6 +75,10 @@
 
 .Inbox__no-conversation-open {
   background-color: #eff1f5 !important;
+}
+
+.module-SearchInput__input {
+  background-color: #ccd0da !important;
 }
 
 /*
@@ -269,6 +278,14 @@
   background-color: #ccd0da !important;
 }
 
+.module-tooltip {
+  background-color: #bcc0cc !important;
+}
+
+.Stories {
+  background-color: #eff1f5 !important;
+}
+
 /*
  ____       _   _   _
 / ___|  ___| |_| |_(_)_ __   __ _ ___
@@ -280,7 +297,7 @@
 
 /* side pannel of settings */
 .Preferences__page-selector {
-  background-color: #dce0e8 !important;
+  background-color: #e6e9ef !important;
 }
 
 /* main settings pannel */
@@ -288,12 +305,19 @@
   background-color: #eff1f5 !important;
 }
 
-/* page selector selected background */
-.Preferences__button--selected {
-  background-color: #bcc0cc !important;
+.Preferences__button:hover,
+.Preferences__profile-chip:hover {
+  background-color: rgba(204, 208, 218, 0.7) !important;
 }
 
-.Preferences__button:focus {
+/* page selector selected background */
+.Preferences__button--selected,
+.Preferences__profile-chip--selected {
+  background-color: #ccd0da !important;
+}
+
+.Preferences__button:focus,
+.Preferences__profile-chip:focus {
   background-color: #ccd0da !important;
 }
 
@@ -304,6 +328,10 @@
 
 .module-Button--secondary--destructive {
   color: #d20f39 !important;
+}
+
+.Preferences {
+  background-color: #eff1f5 !important;
 }
 
 /*

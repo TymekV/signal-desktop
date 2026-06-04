@@ -4,6 +4,8 @@
   --color-elevated-background-primary: #181825 !important;
   --color-elevated-background-secondary: #1e1e2e !important;
   --color-elevated-background-tertiary: #313244 !important;
+  --color-fill-selected: #313244 !important;
+  --color-label-secondary: #45475a !important;
 }
 
 /*
@@ -53,10 +55,13 @@
 }
 
 .module-conversation-list__item--contact-or-conversation:hover,
-.module-conversation-list__item--contact-or-conversation:focus,
-.module-conversation-list__item--archive-button:hover,
-.module-conversation-list__item--archive-button:focus {
+.module-conversation-list__item--archive-button:hover {
   background-color: rgba(49, 50, 68, 0.7) !important;
+}
+
+.module-conversation-list__item--contact-or-conversation:focus,
+.module-conversation-list__item--archive-button:focus {
+  background-color: #313244 !important;
 }
 
 /*
@@ -70,6 +75,10 @@
 
 .Inbox__no-conversation-open {
   background-color: #1e1e2e !important;
+}
+
+.module-SearchInput__input {
+  background-color: #313244 !important;
 }
 
 /*
@@ -269,6 +278,14 @@
   background-color: #313244 !important;
 }
 
+.module-tooltip {
+  background-color: #45475a !important;
+}
+
+.Stories {
+  background-color: #1e1e2e !important;
+}
+
 /*
  ____       _   _   _
 / ___|  ___| |_| |_(_)_ __   __ _ ___
@@ -280,7 +297,7 @@
 
 /* side pannel of settings */
 .Preferences__page-selector {
-  background-color: #11111b !important;
+  background-color: #181825 !important;
 }
 
 /* main settings pannel */
@@ -288,12 +305,19 @@
   background-color: #1e1e2e !important;
 }
 
-/* page selector selected background */
-.Preferences__button--selected {
-  background-color: #45475a !important;
+.Preferences__button:hover,
+.Preferences__profile-chip:hover {
+  background-color: rgba(49, 50, 68, 0.7) !important;
 }
 
-.Preferences__button:focus {
+/* page selector selected background */
+.Preferences__button--selected,
+.Preferences__profile-chip--selected {
+  background-color: #313244 !important;
+}
+
+.Preferences__button:focus,
+.Preferences__profile-chip:focus {
   background-color: #313244 !important;
 }
 
@@ -304,6 +328,10 @@
 
 .module-Button--secondary--destructive {
   color: #f38ba8 !important;
+}
+
+.Preferences {
+  background-color: #1e1e2e !important;
 }
 
 /*

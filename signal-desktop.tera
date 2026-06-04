@@ -1,6 +1,6 @@
 ---
 whiskers:
-  version: "2.5.1"
+  version: "^2.5.1"
   matrix:
     - flavor
   filename: "themes/catppuccin-{{ flavor.identifier }}.css"
@@ -11,6 +11,8 @@ whiskers:
   --color-elevated-background-primary: #{{mantle.hex}} !important;
   --color-elevated-background-secondary: #{{base.hex}} !important;
   --color-elevated-background-tertiary: #{{surface0.hex}} !important;
+  --color-fill-selected: #{{surface0.hex}} !important;
+  --color-label-secondary: #{{surface1.hex}} !important;
 }
 
 /*
@@ -60,10 +62,13 @@ whiskers:
 }
 
 .module-conversation-list__item--contact-or-conversation:hover,
-.module-conversation-list__item--contact-or-conversation:focus,
-.module-conversation-list__item--archive-button:hover,
-.module-conversation-list__item--archive-button:focus {
+.module-conversation-list__item--archive-button:hover {
   background-color: rgba({{ surface0.rgb.r }}, {{ surface0.rgb.g }}, {{ surface0.rgb.b }}, 0.7) !important;
+}
+
+.module-conversation-list__item--contact-or-conversation:focus,
+.module-conversation-list__item--archive-button:focus {
+  background-color: #{{surface0.hex}} !important;
 }
 
 /*
@@ -77,6 +82,10 @@ whiskers:
 
 .Inbox__no-conversation-open {
   background-color: #{{base.hex}} !important;
+}
+
+.module-SearchInput__input {
+  background-color: #{{surface0.hex}} !important;
 }
 
 /*
@@ -276,6 +285,14 @@ whiskers:
   background-color: #{{surface0.hex}} !important;
 }
 
+.module-tooltip {
+  background-color: #{{surface1.hex}} !important;
+}
+
+.Stories {
+  background-color: #{{base.hex}} !important;
+}
+
 /*
  ____       _   _   _
 / ___|  ___| |_| |_(_)_ __   __ _ ___
@@ -287,7 +304,7 @@ whiskers:
 
 /* side pannel of settings */
 .Preferences__page-selector {
-  background-color: #{{crust.hex}} !important;
+  background-color: #{{mantle.hex}} !important;
 }
 
 /* main settings pannel */
@@ -295,12 +312,19 @@ whiskers:
   background-color: #{{base.hex}} !important;
 }
 
-/* page selector selected background */
-.Preferences__button--selected {
-  background-color: #{{surface1.hex}} !important;
+.Preferences__button:hover,
+.Preferences__profile-chip:hover {
+  background-color: rgba({{ surface0.rgb.r }}, {{ surface0.rgb.g }}, {{ surface0.rgb.b }}, 0.7) !important;
 }
 
-.Preferences__button:focus {
+/* page selector selected background */
+.Preferences__button--selected,
+.Preferences__profile-chip--selected {
+  background-color: #{{surface0.hex}} !important;
+}
+
+.Preferences__button:focus,
+.Preferences__profile-chip:focus {
   background-color: #{{surface0.hex}} !important;
 }
 
@@ -311,6 +335,10 @@ whiskers:
 
 .module-Button--secondary--destructive {
   color: #{{red.hex}} !important;
+}
+
+.Preferences {
+  background-color: #{{base.hex}} !important;
 }
 
 /*
