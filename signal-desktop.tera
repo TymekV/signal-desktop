@@ -12,7 +12,6 @@ whiskers:
   --color-elevated-background-secondary: #{{base.hex}} !important;
   --color-elevated-background-tertiary: #{{surface0.hex}} !important;
   --color-fill-selected: #{{surface0.hex}} !important;
-  --color-label-secondary: #{{surface1.hex}} !important;
 }
 
 /*
@@ -339,6 +338,14 @@ whiskers:
 
 .Preferences {
   background-color: #{{base.hex}} !important;
+}
+
+hr {
+  color: #{{surface1.hex}} !important;
+}
+
+.ProfileEditor__divider {
+  border-color: #{{surface1.hex}} !important;
 }
 
 /*

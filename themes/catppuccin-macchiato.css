@@ -5,7 +5,6 @@
   --color-elevated-background-secondary: #24273a !important;
   --color-elevated-background-tertiary: #363a4f !important;
   --color-fill-selected: #363a4f !important;
-  --color-label-secondary: #494d64 !important;
 }
 
 /*
@@ -332,6 +331,14 @@
 
 .Preferences {
   background-color: #24273a !important;
+}
+
+hr {
+  color: #494d64 !important;
+}
+
+.ProfileEditor__divider {
+  border-color: #494d64 !important;
 }
 
 /*
