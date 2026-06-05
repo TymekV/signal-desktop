@@ -171,8 +171,36 @@
   background-color: #414559 !important;
 }
 
+/* quick reaction picker */
 .module-ReactionPickerPicker {
   background-color: #414559 !important;
+}
+
+/* more button in the quick reaciton picker */
+.module-ReactionPickerPicker__button--more {
+  background-color: #51576d !important;
+}
+
+.module-ReactionPickerPicker__button--more:hover {
+  background-color: #626880 !important;
+}
+
+/* full size emoji picker */
+.FunPopover__Dialog {
+  background-color: #414559 !important;
+}
+
+.FunSearch__Input {
+  background-color: #51576d !important;
+}
+
+.FunItem__Button {
+  border-color: #414559 !important;
+}
+
+.FunItem__Button:hover,
+.FunSubNav__ListBoxItem__Button:hover {
+  background-color: #51576d !important;
 }
 
 /*

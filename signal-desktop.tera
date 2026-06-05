@@ -178,8 +178,36 @@ whiskers:
   background-color: #{{surface0.hex}} !important;
 }
 
+/* quick reaction picker */
 .module-ReactionPickerPicker {
   background-color: #{{surface0.hex}} !important;
+}
+
+/* more button in the quick reaciton picker */
+.module-ReactionPickerPicker__button--more {
+  background-color: #{{surface1.hex}} !important;
+}
+
+.module-ReactionPickerPicker__button--more:hover {
+  background-color: #{{surface2.hex}} !important;
+}
+
+/* full size emoji picker */
+.FunPopover__Dialog {
+  background-color: #{{surface0.hex}} !important;
+}
+
+.FunSearch__Input {
+  background-color: #{{surface1.hex}} !important;
+}
+
+.FunItem__Button {
+  border-color: #{{surface0.hex}} !important;
+}
+
+.FunItem__Button:hover,
+.FunSubNav__ListBoxItem__Button:hover {
+  background-color: #{{surface1.hex}} !important;
 }
 
 /*
