@@ -186,7 +186,8 @@
 }
 
 /* full size emoji picker */
-.FunPopover__Dialog {
+.FunPopover__Dialog,
+.FunTabs__TabPanelInner {
   background-color: #ccd0da !important;
 }
 
@@ -200,6 +201,14 @@
 
 .FunItem__Button:hover,
 .FunSubNav__ListBoxItem__Button:hover {
+  background-color: #bcc0cc !important;
+}
+
+.FunTabs__TabButtonIndicator {
+  background-color: #acb0be !important;
+}
+
+.FunTabs__Tab[data-hovered="true"] > .FunTabs__TabButton {
   background-color: #bcc0cc !important;
 }
 
