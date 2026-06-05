@@ -63,6 +63,12 @@
   background-color: #414559 !important;
 }
 
+.NavTabs__ItemUnreadBadge {
+  background-color: #e78284 !important;
+  color: #414559 !important;
+  font-weight: bold !important;
+}
+
 /*
  _   _                        ____
 | | | | ___  _ __ ___   ___  |  _ \ __ _  __ _  ___
@@ -166,7 +172,7 @@
 }
 
 .module-ReactionPickerPicker {
-  background-color: #51576d !important;
+  background-color: #414559 !important;
 }
 
 /*

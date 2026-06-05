@@ -70,6 +70,12 @@ whiskers:
   background-color: #{{surface0.hex}} !important;
 }
 
+.NavTabs__ItemUnreadBadge {
+  background-color: #{{red.hex}} !important;
+  color: #{{surface0.hex}} !important;
+  font-weight: bold !important;
+}
+
 /*
  _   _                        ____
 | | | | ___  _ __ ___   ___  |  _ \ __ _  __ _  ___
