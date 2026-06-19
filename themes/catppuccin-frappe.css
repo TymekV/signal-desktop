@@ -185,6 +185,37 @@
   background-color: #626880 !important;
 }
 
+/* reactions on a message */
+..module-message__reactions__reaction {
+  background-color: #414559 !important;
+  border-color: #303446 !important;
+}
+
+.dark-theme .module-message__reactions__reaction--is-me {
+  background-color: #51576d !important;
+}
+
+/* reactions list */
+.dark-theme .module-reaction-viewer {
+  background-color: #414559 !important;
+}
+
+.dark-theme .module-reaction-viewer__header__button--selected {
+  background-color: #51576d !important;
+}
+
+/* emoji suggestions */
+.dark-theme .module-composition-input__suggestions {
+  background-color: #414559 !important;
+  color: #a5adce !important;
+}
+
+.dark-theme .module-composition-input__suggestions__row--selected,
+.dark-theme .module-composition-input__suggestions__row:hover {
+  background-color: #51576d !important;
+  color: #c6d0f5 !important;
+}
+
 /* full size emoji picker */
 .FunPopover__Dialog,
 .FunTabs__TabPanelInner {

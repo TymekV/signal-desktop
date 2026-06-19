@@ -192,6 +192,37 @@ whiskers:
   background-color: #{{surface2.hex}} !important;
 }
 
+/* reactions on a message */
+..module-message__reactions__reaction {
+  background-color: #{{surface0.hex}} !important;
+  border-color: #{{base.hex}} !important;
+}
+
+.dark-theme .module-message__reactions__reaction--is-me {
+  background-color: #{{surface1.hex}} !important;
+}
+
+/* reactions list */
+.dark-theme .module-reaction-viewer {
+  background-color: #{{surface0.hex}} !important;
+}
+
+.dark-theme .module-reaction-viewer__header__button--selected {
+  background-color: #{{surface1.hex}} !important;
+}
+
+/* emoji suggestions */
+.dark-theme .module-composition-input__suggestions {
+  background-color: #{{surface0.hex}} !important;
+  color: #{{subtext0.hex}} !important;
+}
+
+.dark-theme .module-composition-input__suggestions__row--selected,
+.dark-theme .module-composition-input__suggestions__row:hover {
+  background-color: #{{surface1.hex}} !important;
+  color: #{{text.hex}} !important;
+}
+
 /* full size emoji picker */
 .FunPopover__Dialog,
 .FunTabs__TabPanelInner {
