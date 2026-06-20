@@ -243,6 +243,19 @@
   background-color: #51576d !important;
 }
 
+/* text formatting menu */
+.dark-theme .module-composition-input__format-menu {
+  background-color: #414559 !important;
+}
+
+.dark-theme.mouse-mode .module-composition-input__format-menu__item:hover {
+  background-color: #51576d !important;
+}
+
+.dark-theme .module-composition-input__format-menu__item .module-composition-input__format-menu__item--active {
+  background-color: #626880 !important;
+}
+
 /*
   ____      _ _ _                  _
  / ___|__ _| | (_)_ __   __ _     / \   _ __ ___  __ _

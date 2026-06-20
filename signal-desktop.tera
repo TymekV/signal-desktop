@@ -250,6 +250,19 @@ whiskers:
   background-color: #{{surface1.hex}} !important;
 }
 
+/* text formatting menu */
+.dark-theme .module-composition-input__format-menu {
+  background-color: #{{surface0.hex}} !important;
+}
+
+.dark-theme.mouse-mode .module-composition-input__format-menu__item:hover {
+  background-color: #{{surface1.hex}} !important;
+}
+
+.dark-theme .module-composition-input__format-menu__item .module-composition-input__format-menu__item--active {
+  background-color: #{{surface2.hex}} !important;
+}
+
 /*
   ____      _ _ _                  _
  / ___|__ _| | (_)_ __   __ _     / \   _ __ ___  __ _
