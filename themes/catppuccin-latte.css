@@ -256,6 +256,16 @@
   background-color: #acb0be !important;
 }
 
+/* message box expand button */
+.dark-theme .CompositionArea__toggle-large {
+  background-color: #ccd0da !important;
+  color: #4c4f69 !important;
+}
+
+.dark-theme .CompositionArea__toggle-large:hover {
+  background-color: #bcc0cc !important;
+}
+
 /*
   ____      _ _ _                  _
  / ___|__ _| | (_)_ __   __ _     / \   _ __ ___  __ _

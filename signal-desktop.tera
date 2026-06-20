@@ -263,6 +263,16 @@ whiskers:
   background-color: #{{surface2.hex}} !important;
 }
 
+/* message box expand button */
+.dark-theme .CompositionArea__toggle-large {
+  background-color: #{{surface0.hex}} !important;
+  color: #{{text.hex}} !important;
+}
+
+.dark-theme .CompositionArea__toggle-large:hover {
+  background-color: #{{surface1.hex}} !important;
+}
+
 /*
   ____      _ _ _                  _
  / ___|__ _| | (_)_ __   __ _     / \   _ __ ___  __ _
