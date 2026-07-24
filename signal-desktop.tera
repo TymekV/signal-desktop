@@ -12,6 +12,11 @@ whiskers:
   --color-elevated-background-secondary: #{{base.hex}} !important;
   --color-elevated-background-tertiary: #{{surface0.hex}} !important;
   --color-fill-selected: #{{surface0.hex}} !important;
+  --axo-color-legacy-conversation-header-bg: #{{mantle.hex}} !important;
+  --axo-color-material-tertiary: #{{surface0.hex}} !important;
+  --axo-color-label-primary: #{{text.hex}} !important;
+  --axo-color-fill-secondary: #{{surface0.hex}} !important;
+  --axo-color-material-tertiary: #{{surface0.hex}} !important;
 }
 
 /*

@@ -5,6 +5,11 @@
   --color-elevated-background-secondary: #eff1f5 !important;
   --color-elevated-background-tertiary: #ccd0da !important;
   --color-fill-selected: #ccd0da !important;
+  --axo-color-legacy-conversation-header-bg: #e6e9ef !important;
+  --axo-color-material-tertiary: #ccd0da !important;
+  --axo-color-label-primary: #4c4f69 !important;
+  --axo-color-fill-secondary: #ccd0da !important;
+  --axo-color-material-tertiary: #ccd0da !important;
 }
 
 /*
