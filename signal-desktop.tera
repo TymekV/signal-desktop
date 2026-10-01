@@ -278,6 +278,11 @@ whiskers:
   background-color: #{{surface1.hex}} !important;
 }
 
+/* link preview */
+.dark-theme .module-message__link-preview__content {
+  background-color: #{{surface1.hex}} !important;
+}
+
 /*
   ____      _ _ _                  _
  / ___|__ _| | (_)_ __   __ _     / \   _ __ ___  __ _

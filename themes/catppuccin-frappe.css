@@ -271,6 +271,11 @@
   background-color: #51576d !important;
 }
 
+/* link preview */
+.dark-theme .module-message__link-preview__content {
+  background-color: #51576d !important;
+}
+
 /*
   ____      _ _ _                  _
  / ___|__ _| | (_)_ __   __ _     / \   _ __ ___  __ _
